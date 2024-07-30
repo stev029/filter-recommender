@@ -4,5 +4,14 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "udin",
+				"database": "${workspaceFolder:recommender}/src/db.sqlite3"
+			}
+		]
+	}
 }
